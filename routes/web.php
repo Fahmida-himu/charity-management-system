@@ -17,9 +17,9 @@
 //});
 Route::get('/',function (){
     return view('admin.user.create');
-});
+})->middleware('auth');
 
-Route::get('/create','UserController@create')->name('create');
+Route::get('/create','UserController@create')->name('create')->middleware('auth');
 Route::post('/userstore','UserController@store');
 
 Route::get('/f','UserController@create');

@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3005e158-a8ad-4746-8bd6-028a20d1e55f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/artisan" beforeDir="false" afterPath="$PROJECT_DIR$/inc/artisan" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/public/.htaccess" beforeDir="false" />
@@ -690,10 +688,6 @@
       <change beforePath="$PROJECT_DIR$/inc/storage/framework/testing/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/inc/storage/framework/testing/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/storage/framework/views/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/inc/storage/framework/views/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/storage/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/inc/storage/logs/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/user/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/user/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/user/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/user/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -827,7 +821,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ecommerce-allaia" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -913,6 +907,7 @@
       <workItem from="1612374633926" duration="6488000" />
       <workItem from="1612384151610" duration="4127000" />
       <workItem from="1612414809456" duration="6487000" />
+      <workItem from="1613146550490" duration="622000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1579412252782</created>
