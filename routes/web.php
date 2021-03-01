@@ -12,10 +12,10 @@
 */
 
 
-//Route::get('/', function () {
-//    return view('admin.index');
-//});
-Route::get('/',function (){
+Route::get('/', function () {
+    return view('frontend.index');
+});
+Route::get('/createmember',function (){
     return view('admin.user.create');
 })->middleware('auth');
 

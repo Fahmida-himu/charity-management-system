@@ -1,4 +1,4 @@
-@include('partial.header')
+@include('frontend.partial.header')
 
 <!-- Carousel
 ================================================== -->

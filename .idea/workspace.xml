@@ -688,6 +688,8 @@
       <change beforePath="$PROJECT_DIR$/inc/storage/framework/testing/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/inc/storage/framework/testing/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/storage/framework/views/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/inc/storage/framework/views/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/storage/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/inc/storage/logs/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/index.blade.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -907,7 +909,12 @@
       <workItem from="1612374633926" duration="6488000" />
       <workItem from="1612384151610" duration="4127000" />
       <workItem from="1612414809456" duration="6487000" />
-      <workItem from="1613146550490" duration="622000" />
+      <workItem from="1613146550490" duration="1837000" />
+      <workItem from="1613293700708" duration="1654000" />
+      <workItem from="1613387420205" duration="1228000" />
+      <workItem from="1613496015829" duration="994000" />
+      <workItem from="1614528696091" duration="505000" />
+      <workItem from="1614619228444" duration="2342000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1579412252782</created>
@@ -980,14 +987,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="fixing issue" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1612427724206">
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1614529199367">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1612427724206" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1612414826659">
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1614529199367" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1614528977131">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1612414826659" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1614528977131" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
