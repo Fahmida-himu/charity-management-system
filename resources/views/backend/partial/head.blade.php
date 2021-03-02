@@ -1,8 +1,7 @@
-<!DOCTYPE html>
-<html>
 <head>
     <meta charset="UTF-8">
     <title>CMS @yield('title')</title>
+
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <!-- bootstrap 3.0.2 -->
     <link href="{{asset('assets/css')}}/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -30,20 +29,3 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 </head>
-<body class="skin-black">
-<!-- header logo: style can be found in header.less -->
-@include('backend.partial.header')
-<div class="wrapper row-offcanvas row-offcanvas-left">
-    <!-- Left side column. contains the logo and sidebar -->
-@include('backend.partial.sidebar')
-
-<!-- Right side column. Contains the navbar and content of the page -->
-   <!-- /.right-side -->
-</div><!-- ./wrapper -->
-
-<!-- add new calendar event modal -->
-
-
-@include('backend.partial.footer')
-</body>
-</html>

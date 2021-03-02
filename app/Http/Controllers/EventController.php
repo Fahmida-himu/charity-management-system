@@ -13,6 +13,7 @@ class EventController extends Controller
      */
     public function index()
     {
+        dd("ff");
         return view();
     }
 
@@ -23,7 +24,7 @@ class EventController extends Controller
      */
     public function create()
     {
-        //
+return view('backend.events.create');
     }
 
     /**

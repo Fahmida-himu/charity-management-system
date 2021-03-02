@@ -32,3 +32,11 @@ Route::get('login','AuthController@ShowLogin')->name('login');
 //
 Route::get('/logout','AuthController@logout')->name('log');
 Route::get('/edit/{id}','UserController@edit')->name('edit');
+
+
+    Route::group(['prefix'=>'events','as'=>'events.','middleware'=>'auth'], function(){
+        Route::get('/', ['as' => 'index', 'uses' => 'EventController@index']);
+        Route::get('create', ['as' => 'create', 'uses' => 'EventController@create']);
+    });
+
+
