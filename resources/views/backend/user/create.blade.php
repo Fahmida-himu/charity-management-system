@@ -1,4 +1,4 @@
-@extends('admin.master')
+@extends('backend.master')
 @section('main_content')
 
         <!doctype html>
@@ -16,39 +16,39 @@
 <body>
 
 <div class="container pt-5">
-    <form class="form-box" action="/create.user" method="post" enctype="multipart/form-data">
-        <h3 class="form-box success">Create an Admin</h3><br>
+    <form class="form-box" action="{{url('/userstore')}}" method="post" enctype="multipart/form-data">
+        <h3 class="form-box success">Create a Member</h3><br>
         @csrf
         <div class="form-group ">
             <label for="exampleFormControlInput1">Name</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" value="{{$users->name}}" name="name">
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="your name like 'Ringku Islam'" name="name">
                                         {{$errors->first('name')}}
         </div>
 
         <div class="form-group">
             <label for="exampleFormControlInput1">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" name="email" value="{{$users->email}}">
+            <input type="email" class="form-control" id="exampleFormControlInput1" name="email" placeholder="name@example.com">
             {{$errors->first('email')}}
         </div>
 
         <div class="form-group">
             <label for="exampleFormControlInput1">Phone</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" name="phone" value="{{$users->phone}}">
+            <input type="text" class="form-control" id="exampleFormControlInput1" name="phone" placeholder="01000000000">
             {{$errors->first('phone')}}
         </div>
 
         <div class="form-group">
             <label for="exampleFormControlInput1">Password</label>
-            <input type="password" class="form-control" id="exampleFormControlInput1" name="password" value="{{$users->password}}">
+            <input type="password" class="form-control" id="exampleFormControlInput1" name="password" placeholder="Password">
             {{$errors->first('password')}}
         </div>
         <div class="form-group">
             <label for="exampleFormControlSelect1">Role</label>
             <select name="role" class="form-control" id="exampleFormControlSelect1">
-                <option value="1" {{($users->role == '1')?'selected':''}} >Super</option>
-                <option value="2" {{($users->role == '2')?'selected':''}}>Authority</option>
-                <option value="3" {{($users->role == '3')?'selected':''}}>General Admin</option>
-                <option value="4" {{($users->role == '4')?'selected':''}}>Member</option>
+                <option value="" disabled>Select Customer Status</option>
+                <option value="2">Authority</option>
+                <option value="3">General Admin</option>
+                <option value="4">Member</option>
             </select>
             {{$errors->first('role')}}
         </div>

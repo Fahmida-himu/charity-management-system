@@ -16,7 +16,7 @@ Route::get('/', function () {
     return view('frontend.index');
 });
 Route::get('/createmember',function (){
-    return view('admin.user.create');
+    return view('backend.user.create');
 })->middleware('auth');
 
 Route::get('/create','UserController@create')->name('create')->middleware('auth');

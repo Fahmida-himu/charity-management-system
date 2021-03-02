@@ -23,6 +23,7 @@ class AuthController extends Controller
             return redirect('/f');
         }
         else{
+
             return redirect()->back();
         }
 
@@ -30,7 +31,7 @@ class AuthController extends Controller
 
     public function Showlogin()
     {
-        return view('admin.user.login');
+        return view('backend.user.login');
     }
 
     public function logout()

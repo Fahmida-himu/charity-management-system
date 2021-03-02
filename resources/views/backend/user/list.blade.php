@@ -1,4 +1,4 @@
-@extends('admin.master')
+@extends('backend.master')
 @section('main_content')
     <a style="color: red" href="/logout">Logout</a>
         <table class="table text-purple table-bordered table-hover">
