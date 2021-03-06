@@ -44,7 +44,10 @@
         <input class="btn btn-primary" type="submit" name="submit" value="Log-In">
 
 
-
+<div class="form-row">
+    <a href="{{url('/sign-in/github')}}" class="btn btn-outline-dark btn-block fa fa-github p-3">Sign in with GitHub</a>
+    <a href="{{url('/sign-in/facebook')}}" class="btn btn-outline-dark btn-block fa fa-facebook p-3">Sign in with Facebook</a>
+</div>
 
 </form>
 
