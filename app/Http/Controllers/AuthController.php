@@ -46,6 +46,15 @@ class AuthController extends Controller
         $user=Socialite::driver('github')->user();
         dd($user);
     }
+    public function facebook()
+    {
+        return Socialite::driver('facebook')->redirect();
+    }
+    public function facebookRedirect()
+    {
+        $user=Socialite::driver('facebook')->user();
+        dd($user);
+    }
 
 
     public function logout()

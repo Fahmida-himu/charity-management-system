@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3005e158-a8ad-4746-8bd6-028a20d1e55f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tarunyarjoy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tarunyarjoy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Event.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Event.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EventController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EventController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_03_01_180354_create_events_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_03_01_180354_create_events_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/app/Http/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/app/Http/Controllers/AuthController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/app/Http/Controllers/UserController.php" afterDir="false" />
@@ -700,10 +691,6 @@
       <change beforePath="$PROJECT_DIR$/inc/storage/framework/testing/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/inc/storage/framework/testing/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/storage/framework/views/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/inc/storage/framework/views/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/storage/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/inc/storage/logs/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/backend/events/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/events/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/backend/user/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/user/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -943,7 +930,7 @@
       <workItem from="1614713512480" duration="28000" />
       <workItem from="1614776968921" duration="3601000" />
       <workItem from="1614941548135" duration="3262000" />
-      <workItem from="1615049175084" duration="7185000" />
+      <workItem from="1615049175084" duration="7429000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1579412252782</created>
