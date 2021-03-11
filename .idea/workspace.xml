@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3005e158-a8ad-4746-8bd6-028a20d1e55f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc" beforeDir="false" afterPath="$PROJECT_DIR$/inc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/app/Http/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/app/Http/Controllers/AuthController.php" afterDir="false" />
@@ -832,7 +835,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/backend/events" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -845,15 +848,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views/admin" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\tarunyarjoy_organization\app\Http\Controllers" />
       <recent name="E:\xampp\htdocs\tarunyarjoy_organization\resources\views\backend\events" />
       <recent name="H:\xamppN\htdocs\tarunyarjoy_organization\public\assets\images\sponsors" />
       <recent name="H:\xamppN\htdocs\tarunyarjoy_organization\public\assets\images\reasons" />
       <recent name="H:\xamppN\htdocs\tarunyarjoy_organization\public\assets\images\slider" />
-      <recent name="H:\xamppN\htdocs\tarunyarjoy_organization\assets\images\slider" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\tarunyarjoy_organization\app\Http\Controllers\Auth" />
+      <recent name="E:\xampp\htdocs\tarunyarjoy_organization\app\Http\Controllers" />
+      <recent name="$PROJECT_DIR$/resources/views/admin" />
     </key>
   </component>
   <component name="RunManager">
@@ -930,7 +935,12 @@
       <workItem from="1614713512480" duration="28000" />
       <workItem from="1614776968921" duration="3601000" />
       <workItem from="1614941548135" duration="3262000" />
-      <workItem from="1615049175084" duration="7429000" />
+      <workItem from="1615049175084" duration="11936000" />
+      <workItem from="1615083597442" duration="797000" />
+      <workItem from="1615227804387" duration="627000" />
+      <workItem from="1615400767525" duration="9133000" />
+      <workItem from="1615481191334" duration="120000" />
+      <workItem from="1615486976024" duration="2963000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1579412252782</created>
@@ -1003,9 +1013,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="fixing issue" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2017" y="171" key="FileChooserDialogImpl" timestamp="1614786974164">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state x="381" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1615062345318">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="381" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1615062345318" />
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1615481312344">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1615481312344" />
     <state x="2017" y="171" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614786974164" />
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1614529199367" />
     <state x="1827" y="155" key="SettingsEditor" timestamp="1614710015512">
@@ -1013,9 +1028,10 @@
     </state>
     <state x="151" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1614707461033" />
     <state x="1827" y="155" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614710015512" />
-    <state x="1899" y="270" key="com.intellij.ide.util.TipDialog" timestamp="1615049249726">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1615481252858">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1615481252858" />
     <state x="1899" y="270" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1615049249726" />
     <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1614528977131" />
   </component>
